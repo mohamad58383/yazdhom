@@ -1,73 +1,101 @@
-body{
-    background: linear-gradient(to right, #e79081, #ededf3);
+body {
+    /* background: linear-gradient(to right, #e79081, #ededf3); */
+    background-color: #555879;
     margin: 0px;
     padding: 0px;
 }
-h1 {  
-    margin-top: -8px;
-    margin-right: -8px;
+
+h1 {
     text-align: center;
-    padding: 26px;
-    background: linear-gradient(to right, #eb0808, #1405ee);
-    font-size: 30px;
     font-weight: bold;
     font-family: 'b nazanin';
 }
+
 h3 {
     font-size: 20px;
     font-weight: bold;
     font-family: b nazanin;
     color: rgb(7, 5, 10);
-} 
-
-p {
-    margin: 20px;
-    font-size: 15px;
-    font-weight: bold;
-    font-family: 'b nazanin';
-    color: rgb(0, 0, 0);
 }
-u{
+u {
     color: #1405ee;
     font-family: 'b nazanin';
 }
-h5 {
-    margin: 18px;
-    margin-right: 50px;
-    font-size: 18px;
-    font-weight: bold;
-    font-family: 'b nazanin';
-    color: rgb(5, 51, 13);
-}
-h4{
-    margin-right:30px;
+h4 {
+    margin-right: 30px;
     font-size: 18px;
     font-family: 'b nazanin';
 }
-
-.mohamad{
-         background: linear-gradient(to right, #ee674f, #8888e7);
-
-    text-align: center;
-    margin-top: -22px;
-    margin-right: -8px;
-    padding: 5px;
-    font-size: 17px;
-    font-family: 'b nazanin';
-    font-size: 19px;
-}
-.javad{
-     background: linear-gradient(to right, #df7765, #d6d6f1);
+.javad {
+    background: linear-gradient(to right, #DED3C4, #545de6);
+   background-color: #DED3C4;
     padding: 20px;
     margin: 20px;
     border-radius: 10px;
     box-shadow: black 0px 0px 2px;
     font-family: 'b nazanin';
 }
-b{
-      margin: 20px;
+
+b {
+    margin: 20px;
     font-size: 15px;
     font-weight: bold;
     font-family: 'b nazanin';
     color: rgb(0, 0, 0);
+    
+}
+
+header {
+    padding: 26px;
+    background: linear-gradient(to right, #5f6170, #22243d);
+    font-size: 15px;
+    margin-top: -8px;
+    margin-right: -8px;
+}
+nav{background-color: #98A1BC; 
+text-align: center;
+padding: 10px;
+}
+a{
+margin: 015px;
+color: black;
+font-weight: bold;
+font-family: 'b nazanin';
+}
+footer{
+    background-color: #F4EBD3;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    font-size: 15px;
+    font-family: 'b nazanin';
+}
+.mohamad {
+    border: 1px solid wheat;
+    padding: 20px;
+    border-radius: 10px;
+    background: #98A1BC;
+    box-shadow: black 0px 2px 5px;
+    width: 280px;
+    text-align: right;
+}
+
+.mjn {
+    color:black;
+    margin-bottom: 10px;
+    border-bottom: 2px solid red;
+    padding-bottom: 5px;
+}
+
+.mamad {
+    color: black;
+    font-size: 15px;
+    margin: 8px 0;
+}
+
+.mhn {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
 }
